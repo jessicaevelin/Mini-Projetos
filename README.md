@@ -11,7 +11,11 @@ Este repositório contém uma coleção de mini projetos desenvolvidos para prat
 
 ### 📁 Estrutura
 ```
+mini-projetos-js/
 ├── conversor/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 ├── assets/ --> Gifs e imagens
 └── README.md
 ```
