@@ -5,10 +5,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Ocupa toda a tela sem scroll */
+html{
+    height: 99%;
+}
+
 body{
     /* Tudo terá essa cor */
     background-color: #e5e5e5; 
 }
+
+
 
 .container{
     /* Delimitando o tamanho do app */
