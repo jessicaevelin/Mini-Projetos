@@ -42,3 +42,75 @@ h1{
     padding-top: 23px;
 }
 
+main{
+    /* Distância das laterais */
+    padding: 24px;
+    /* Estilo da fonte dentro do main */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    list-style: 18px;
+    color: #777777;
+}
+
+select{
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    height: 48px;
+    /* Cada um na sua linha */
+    display: block;
+    /* Ocupa a linha inteira */
+    width: 100%;
+    /* Luvinha no mouse */
+    cursor: pointer;
+    /* Tira a marcação azul */
+    outline: none;
+    /* Tira o v da caixa */
+    appearance: none;
+    /* Espaçamento interno */
+    padding-left: 16px;
+    /* Sombras embaixo da caixa */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+input{
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    outline: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+button{
+    background: #1B83E2;
+    border-radius: 30px;
+    height: 48px;
+    width: 100%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+}
+
+button:hover{
+    /* Escurece o botão quando passar o mouse */
+    background: #176fc2;
+}
+
+button:active{
+    /* Escurece o botão quando passar o mouse */
+    background: #105391;
+}
