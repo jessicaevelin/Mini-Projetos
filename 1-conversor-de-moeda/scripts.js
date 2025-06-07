@@ -38,15 +38,15 @@ const change_currency = () => {
 
     if (currencyName === "€ Euro") {
         nomeAtual.innerHTML = "Euro"
-        currencyImg.src = "/assets/bandeira-euro.png"   
+        currencyImg.src = "../assets/icon-euro.png"   
 
     } else if (currencyName === "US$ Dólar Americano"){
         nomeAtual.innerHTML = "Dólar Americano"
-        currencyImg.src = "/assets/bandeira-eua.png"  
+        currencyImg.src = "../assets/icon-eua.png"  
 
     } else{
         nomeAtual.innerHTML = "Bitcoin"
-        currencyImg.src = "/assets/icon-bitcoin.png"  
+        currencyImg.src = "../assets/icon-bitcoin.png"  
     }
 converte_valores() // Chama a função para atualizar o valor convertido
 }
