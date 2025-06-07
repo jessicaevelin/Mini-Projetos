@@ -6,7 +6,7 @@ Este repositório contém uma coleção de mini projetos desenvolvidos para prat
 
 | Projeto                      | Descrição                              | Demo                                   |
 | ---------------------------- | --------------------------------------- | --------------------------------------- |
-| 💰 **Conversor de Moedas**            | Conversor de Real para dólar | ![Conversor](./assets/conversor-gif.gif) |
+| 💰 **Conversor de Moedas**            | Conversor de Real para dólar, Euro e Bitcoin | ![Conversor](./assets/conversor-gif.gif) |
 
 
 ### 📁 Estrutura
