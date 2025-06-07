@@ -114,3 +114,30 @@ button:active{
     /* Escurece o botão quando passar o mouse */
     background: #105391;
 }
+
+/* Borda inferior */
+.section-convertidos{
+    border-radius: 4px;
+    border: 1px solid #d0cfcf;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.div-valores{
+    text-align: center;
+    padding: 10px;
+}
+
+.p-valores{
+    color: #176fc2;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.img-seta{
+    /* Como centralizar um objeto */
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    display: block;
+}
