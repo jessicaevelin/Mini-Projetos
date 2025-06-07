@@ -4,9 +4,9 @@ Este repositório contém uma coleção de mini projetos desenvolvidos para prat
 
 ### 🗂️ Projetos
 
-| Projeto                      | Descrição                              | Demo                                   |
+| Projeto                      | Descrição                              | Página do projeto                                   |
 | ---------------------------- | --------------------------------------- | --------------------------------------- |
-| 💰 **Conversor de Moedas**            | Conversor de Real para dólar, Euro e Bitcoin | ![Conversor](https://jessicaevelin.github.io/mini-projetos-js/1-conversor-de-moeda/) |
+| 💰 **Conversor de Moedas**            | Conversor de Real para dólar, Euro e Bitcoin | [Conversor](https://jessicaevelin.github.io/mini-projetos-js/1-conversor-de-moeda/) |
 
 
 ### 📁 Estrutura
