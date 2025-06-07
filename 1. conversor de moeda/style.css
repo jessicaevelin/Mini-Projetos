@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    /* Tudo terá essa cor */
+    background-color: #e5e5e5; 
+}
+
+.container{
+    /* Delimitando o tamanho do app */
+    width: 375px;
+    /* Cor do app */
+    background-color: #f4f4f4;
+    /* Como colocar o app centralizado na página */
+    /* Distância de 100px do top e automático para os lados */
+    margin: 100px auto;
+}
+
+header{
+    /* Cor do cabeçalho */
+    background-color: #1B83E2;
+    height: 66px;
+}
+
+h1{
+    /* Tamanho */
+    font-size: normal;
+    /* Grosso ou fino */
+    font-weight: normal;
+    /* Tamanho */
+    font-size: 24px;
+    /* Altura */
+    line-height: 18px;
+    color: #f4f4f4;
+    /* Alinhamento */
+    text-align: center;
+    /* Distância do topo */    
+    padding-top: 23px;
+}
+
