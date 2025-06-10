@@ -4,88 +4,82 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conversor de moeda</title>
 
     <!-- Link com o CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Fonte -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="container">
-        <header>
-            <h1>Conversor de Moeda</h1>
-        </header>
+      <header>
+        <h1>Conversor de Moeda</h1>
+      </header>
 
-        <main>
+      <main>
+        <label>
+          <p>Converter <b>de</b></p>
+          <select class="caixa">
+            <option>R$ Real Brasileiro</option>
+          </select>
+        </label>
 
-            <label>
-                <p>Converter <b>de</b></p>
-                <select class="caixa">
-                    <option>
-                        R$ Real Brasileiro
-                    </option>
-                </select>
-            </label>
+        <label>
+          <p>Converter <b>para</b></p>
+          <select id="currency-select" class="caixa">
+            <option>US$ Dólar Americano</option>
+            <option>€ Euro</option>
+            <option>Bitcoin</option>
+          </select>
+        </label>
 
-            <label>
-                <p>Converter <b>para</b></p>
-                <select id="currency-select" class="caixa">
-                    <option>
-                        US$ Dólar Americano
-                    </option>
-                    <option>
-                        € Euro
-                    </option>
-                    <option>
-                        Bitcoin
-                    </option>
-                </select>
-            </label>
+        <section class="valores">
+          <label>
+            <p><b>Valor</b></p>
+            <input
+              id="input-real"
+              class="caixa"
+              autocomplete="off"
+              placeholder="R$ 10.000,00"
+            />
+          </label>
+        </section>
 
-            <section class="valores">
-                <label>
-                    <p><b>Valor</b></p>
-                    <input id="input-real" class="caixa" autocomplete="off" placeholder="R$ 10.000,00">
-                </label>
-            </section>
+        <button id="button" type="button">Converter</button>
 
-            <button id="button" type="button">Converter</button>
+        <section class="section-convertidos">
+          <div class="div-valores">
+            <img src="./assets/icon-brasil.png" alt="bandeira do brasil" />
+            <p>Real</p>
+            <p class="p-valores" id="real-text">R$ 10.000,00</p>
+          </div>
 
+          <img class="img-seta" src="./assets/flexa-conversor.png" alt="" />
 
-            <section class="section-convertidos">
-
-                <div class="div-valores">
-                    <img src="../assets/icon-brasil.png" alt="bandeira do brasil">
-                    <p>Real</p>
-                    <p class="p-valores" id="real-text">R$ 10.000,00</p>
-                </div>
-
-                <img class="img-seta" src="../assets/flexa-conversor.png" alt="">
-
-                <div class="div-valores">
-                    <img id="bandeira" src="../assets/icon-eua.png" alt="bandeira dos bandeira-eua">
-                    <p id="nome-atual">Dólar Americano</p>
-                    <p class="p-valores" id="estrangeiro-text">US$ 2.000,00</p>
-                </div>
-
-            </section>
-
-        </main>
+          <div class="div-valores">
+            <img
+              id="bandeira"
+              src="./assets/icon-eua.png"
+              alt="bandeira dos bandeira-eua"
+            />
+            <p id="nome-atual">Dólar Americano</p>
+            <p class="p-valores" id="estrangeiro-text">US$ 2.000,00</p>
+          </div>
+        </section>
+      </main>
     </div>
-</body>
+  </body>
 
-<script src="scripts.js"></script>
-
+  <script src="scripts.js"></script>
 </html>
