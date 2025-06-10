@@ -11,3 +11,21 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.container {
+    /* Deixa todas as tags do main, um abaixo do outro */
+    display: flex;
+    flex-direction: column;
+    /* Formatação */
+    background-color: aquamarine;
+    width: 400px;
+    height: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgb(133, 133, 133);
+    /* Deixa tudo centralizado */
+    align-items: center;
+    /* Dá um espaço em tudo */
+    justify-content: space-evenly;
+}
