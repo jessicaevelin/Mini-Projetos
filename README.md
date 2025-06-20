@@ -6,7 +6,9 @@ Este repositório contém uma coleção de mini projetos desenvolvidos para prat
 
 | Projeto                    | Descrição                                    | Página do projeto                                                                    |
 | -------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------ |
-| 💰 **Conversor de Moedas** | Conversor de Real para dólar, Euro e Bitcoin | [Conversor](https://jessicaevelin.github.io/mini-projetos-js/1-conversor-de-moedas/) |
+| **Conversor de Moedas** | Conversor de Real para dólar, Euro e Bitcoin | [Conversor](https://jessicaevelin.github.io/mini-projetos-js/1-conversor-de-moedas/) |
+| **Calculadora de IMC** | Recebe as informações do usuário e exibe o IMC dele | [Calculadora](https://jessicaevelin.github.io/mini-projetos-js/2-calculadora-de-imc/) |
+| **Sistema de login** | Cadastra um usuário e permite que ele entre na conta | [Login](https://jessicaevelin.github.io/mini-projetos-js/3-cadastra-usuarios-no-site) |
 
 ### 📁 Estrutura
 
@@ -17,6 +19,17 @@ mini-projetos-js/
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
+├── 2-calculadora-de-imc/
+│   ├── assets/ --> Gifs e imagens
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── 3-cadastra-usuarios-no-site/
+│   ├── src/ --> Gifs e imagens
+│   ├── public/
+│   ├── package-lock.json
+│   ├── package.json
+│   └── yarn.lock
 └── README.md
 ```
 
@@ -24,7 +37,9 @@ mini-projetos-js/
 
 - HTML
 - CSS
-- JavaScript (Vanilla)
+- JavaScript
+- React
+- Node.js
 
 ## ✍️ Contribuição
 
