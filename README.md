@@ -1,6 +1,6 @@
-# 🚀 Mini Projetos em HTML, CSS e JavaScript
+# 🚀 Mini Projetos em HTML, CSS, JavaScript e React
 
-Este repositório contém uma coleção de mini projetos desenvolvidos para praticar HTML, CSS e JavaScript. Cada projeto aborda conceitos básicos de desenvolvimento web, lógica de programação e interação com o DOM.
+Este repositório contém uma coleção de mini projetos desenvolvidos para praticar HTML, CSS, JavaScript e React. Cada projeto aborda conceitos básicos de desenvolvimento web, lógica de programação e interação com o DOM.
 
 ### 🗂️ Projetos
 
